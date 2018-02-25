@@ -1,0 +1,54 @@
+# This script generates 74xgxx.lib via symgen
+#
+# Global Defaults
+#
+%lib ADL5801_Mixer
+%pinlen 200
+%fill back
+%line 10
+%width 0
+%iconlib ../common_gr_templates/template.lib
+
+
+#
+COMP ADL5801 U
+%fill back
+FIELD $FOOTPRINT "Package_CSP:LFCSP-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm"
+FPLIST
+LFCSP*4x4mm*P0.5mm*EP2.5x2.5mm
+DESC 10 MHz to 6 GHz Active Mixer
+KEYW mixer active
+DOC http://www.analog.com/media/en/technical-documentation/data-sheets/ADL5801.pdf
+UNIT ICON ADL5801_mixer_sym
+20 IFOP P L
+21 IFON P L
+3 LOIP P L
+4 LOIN P L
+SPC L
+9 ENBL I L 
+10 VSET I L
+
+15 RFIN P R
+16 RFIP P R
+SPC R
+11 DETO O R
+22 NC NN R
+
+UNIT PWR COMB
+7 VPLO PI TC
+24 VPLO PI TC
+13 VPDT PI TC
+18 VPRF PI TC
+
+1 GND PI BC
+2 GND PI BC
+5 GND PI BC
+6 GND PI BC
+8 GND PI BC
+12 GND PI BC
+14 GND PI BC
+17 GND PI BC
+19 GND PI BC
+23 GND PI BC
+25 EPAD PI BC
+END

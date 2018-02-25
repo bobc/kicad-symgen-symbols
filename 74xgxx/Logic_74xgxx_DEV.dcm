@@ -1,0 +1,579 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74LVC1G00GW
+D Single 2-input NAND gate, SOT-353-1
+K single NAND gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G00.pdf
+$ENDCMP
+#
+$CMP 74LVC1G00GV
+D Single 2-input NAND gate, SOT-753
+K single NAND gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G00.pdf
+$ENDCMP
+#
+$CMP 74LVC1G00GX
+D Single 2-input NAND gate, SOT-1226
+K single NAND gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G00.pdf
+$ENDCMP
+#
+$CMP 74LVC1G02GW
+D Single 2-input NOR gate, SOT-353-1
+K single NOR gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G02.pdf
+$ENDCMP
+#
+$CMP 74LVC1G02GV
+D Single 2-input NOR gate, SOT-753
+K single NOR gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G02.pdf
+$ENDCMP
+#
+$CMP 74LVC1G02GX
+D Single 2-input NOR gate, SOT-1226
+K single NOR gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G02.pdf
+$ENDCMP
+#
+$CMP 74LVC1G04GW
+D Single inverter gate, SOT-353-1
+K single NOT gate inverter
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G04.pdf
+$ENDCMP
+#
+$CMP 74LVC1G04GV
+D Single inverter gate, SOT-753
+K single NOT gate inverter
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G04.pdf
+$ENDCMP
+#
+$CMP 74LVC1G04GX
+D Single inverter gate, SOT-1226
+K single NOT gate inverter
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G04.pdf
+$ENDCMP
+#
+$CMP 74LVC1G06GW
+D Single inverter gate, open-drain output, SOT-353-1
+K Single NOT gate inverter open drain
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G06.pdf
+$ENDCMP
+#
+$CMP 74LVC1G06GV
+D Single inverter gate, open-drain output, SOT-753
+K Single NOT gate inverter open drain
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G06.pdf
+$ENDCMP
+#
+$CMP 74LVC1G06GX
+D Single inverter gate, open-drain output, SOT-1226
+K Single NOT gate inverter open drain
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G06.pdf
+$ENDCMP
+#
+$CMP 74LVC1G07GW
+D Single buffer gate, open-drain output, SOT-353-1
+K single buffer gate open drain
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G07.pdf
+$ENDCMP
+#
+$CMP 74LVC1G07GV
+D Single buffer gate, open-drain output, SOT-753
+K single buffer gate open drain
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G07.pdf
+$ENDCMP
+#
+$CMP 74LVC1G07GX
+D Single buffer gate, open-drain output, SOT-1226
+K single buffer gate open drain
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G07.pdf
+$ENDCMP
+#
+$CMP 74LVC1G08GW
+D Single 2-input AND gate, SOT-353-1
+K single AND gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G08.pdf
+$ENDCMP
+#
+$CMP 74LVC1G08GV
+D Single 2-input AND gate, SOT-753
+K single AND gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G08.pdf
+$ENDCMP
+#
+$CMP 74LVC1G08GX
+D Single 2-input AND gate, SOT-1226
+K single AND gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G08.pdf
+$ENDCMP
+#
+$CMP 74AUP1G09GW
+D Single 2-input AND gate, open-drain output, SOT-353-1
+K single AND gate open drain
+F https://assets.nexperia.com/documents/data-sheet/74AUP1G09.pdf
+$ENDCMP
+#
+$CMP 74AUP1G09GX
+D Single 2-input AND gate, open-drain output, SOT-1226
+K single AND gate open drain
+F https://assets.nexperia.com/documents/data-sheet/74AUP1G09.pdf
+$ENDCMP
+#
+$CMP 74LVC1G123DP
+D Single retriggerable monostable multivibrator, clear, SOT-505-2
+K single multivibrator
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G123.pdf
+$ENDCMP
+#
+$CMP 74LVC1G123DC
+D Single retriggerable monostable multivibrator, clear, SOT-765-1
+K single multivibrator
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G123.pdf
+$ENDCMP
+#
+$CMP 74LVC1G123GT
+D Single retriggerable monostable multivibrator, clear, SOT-833-1
+K single multivibrator
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G123.pdf
+$ENDCMP
+#
+$CMP 74LVC1G123GF
+D Single retriggerable monostable multivibrator, clear, SOT-1089
+K single multivibrator
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G123.pdf
+$ENDCMP
+#
+$CMP 74LVC1G123GD
+D Single retriggerable monostable multivibrator, clear, SOT-996-2
+K single multivibrator
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G123.pdf
+$ENDCMP
+#
+$CMP 74LVC1G123GN
+D Single retriggerable monostable multivibrator, clear, SOT-1116
+K single multivibrator
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G123.pdf
+$ENDCMP
+#
+$CMP 74LVC1G123GS
+D Single retriggerable monostable multivibrator, clear, SOT-1203
+K single multivibrator
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G123.pdf
+$ENDCMP
+#
+$CMP 74LVC1G125GW
+D Single buffer gate, active-low enable, three-state output, SOT-353-1
+K single buffer gate three state
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G125.pdf
+$ENDCMP
+#
+$CMP 74LVC1G125GV
+D Single buffer gate, active-low enable, three-state output, SOT-753
+K single buffer gate three state
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G125.pdf
+$ENDCMP
+#
+$CMP 74LVC1G125GX
+D Single buffer gate, active-low enable, three-state output, SOT-1226
+K single buffer gate three state
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G125.pdf
+$ENDCMP
+#
+$CMP 74LVC1G126GW
+D Single buffer gate, active-high enable, three-state output, SOT-353-1
+K single buffer gate three state
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G126.pdf
+$ENDCMP
+#
+$CMP 74LVC1G126GV
+D Single buffer gate, active-high enable, three-state output, SOT-753
+K single buffer gate three state
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G126.pdf
+$ENDCMP
+#
+$CMP 74LVC1G126GX
+D Single buffer gate, active-high enable, three-state output, SOT-1226
+K single buffer gate three state
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G126.pdf
+$ENDCMP
+#
+$CMP 74LVC1G14GW
+D Single inverter gate, SOT-353-1
+K single NOT gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G14.pdf
+$ENDCMP
+#
+$CMP 74LVC1G14GV
+D Single inverter gate, SOT-753
+K single NOT gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G14.pdf
+$ENDCMP
+#
+$CMP 74LVC1G14GX
+D Single inverter gate, SOT-1226
+K single NOT gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G14.pdf
+$ENDCMP
+#
+$CMP 74LVC1G17GW
+D Single buffer gate, SOT-353-1
+K single buffer gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G17.pdf
+$ENDCMP
+#
+$CMP 74LVC1G17GV
+D Single buffer gate, SOT-753
+K single buffer gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G17.pdf
+$ENDCMP
+#
+$CMP 74LVC1G17GX
+D Single buffer gate, SOT-1226
+K single buffer gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G17.pdf
+$ENDCMP
+#
+$CMP 74LVC1G27
+D Single 3-input NOR gate, SOT-363/SOT-457/SOT-886/SOT-891/SOT-1115/SOT-1202
+K single NOR gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G27.pdf
+$ENDCMP
+#
+$CMP 74LVC1G32GW
+D Single 2-input OR gate, SOT-353-1
+K single OR gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G32.pdf
+$ENDCMP
+#
+$CMP 74LVC1G32GV
+D Single 2-input OR gate, SOT-753
+K single OR gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G32.pdf
+$ENDCMP
+#
+$CMP 74LVC1G32GX
+D Single 2-input OR gate, SOT-1226
+K single OR gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G32.pdf
+$ENDCMP
+#
+$CMP 74AUP1G3208
+D Single 3-input OR-AND combo gate (2-input OR into AND), SOT-363/SOT-886/SOT-891/SOT-1115/SOT-1202/SOT-1255
+K single OR AND gate combo
+F https://assets.nexperia.com/documents/data-sheet/74AUP1G3208.pdf
+$ENDCMP
+#
+$CMP 74LVC1G34GW
+D Single buffer gate, SOT-353-1
+K single buffer gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G34.pdf
+$ENDCMP
+#
+$CMP 74LVC1G34GV
+D Single buffer gate, SOT-753
+K single buffer gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G34.pdf
+$ENDCMP
+#
+$CMP 74LVC1G34GX
+D Single buffer gate, SOT-1226
+K single buffer gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G34.pdf
+$ENDCMP
+#
+$CMP 74AUP1G373
+D Single transparent latch, active-low enable, three-state output, SOT-363/SOT-886/SOT-891/SOT-1115/SOT-1202
+K single latch three state
+F https://assets.nexperia.com/documents/data-sheet/74AUP1G373.pdf
+$ENDCMP
+#
+$CMP 74AUP1G374
+D Single D-type flip-flop, active-low enable, three-state output, SOT-363/SOT-886/SOT-891/SOT-1115/SOT-1202
+K single D-type flip flop three state
+F https://assets.nexperia.com/documents/data-sheet/74AUP1G374.pdf
+$ENDCMP
+#
+$CMP 74LVC1G386
+D Single 3-input XOR Gate (a.k.a. even-parity generator), SOT-363/SOT-457
+K single XOR gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G386.pdf
+$ENDCMP
+#
+$CMP 74LVC1G57
+D Single configurable 7-function gate, SOT-363/SOT-457/SOT-886/SOT-891/SOT-1115/SOT-1202
+K single configurable gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G57.pdf
+$ENDCMP
+#
+$CMP 74LVC1G58
+D Single configurable 7-function gate, SOT-363/SOT-457/SOT-886/SOT-891/SOT-1115/SOT-1202
+K single configurable gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G58.pdf
+$ENDCMP
+#
+$CMP 74LVC1G79GW
+D Single D-type flip-flop, positive-edge trigger, SOT-353-1
+K single D-type flip flop
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G79.pdf
+$ENDCMP
+#
+$CMP 74LVC1G79GV
+D Single D-type flip-flop, positive-edge trigger, SOT-753
+K single D-type flip flop
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G79.pdf
+$ENDCMP
+#
+$CMP 74LVC1G79GX
+D Single D-type flip-flop, positive-edge trigger, SOT-1226
+K single D-type flip flop
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G79.pdf
+$ENDCMP
+#
+$CMP 74LVC1G80GW
+D Single D-type flip-flop, positive-edge trigger, inverted output, SOT-353-1
+K single D-type flip flop inverted
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G80.pdf
+$ENDCMP
+#
+$CMP 74LVC1G80GV
+D Single D-type flip-flop, positive-edge trigger, inverted output, SOT-753
+K single D-type flip flop inverted
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G80.pdf
+$ENDCMP
+#
+$CMP 74LVC1G80GX
+D Single D-type flip-flop, positive-edge trigger, inverted output, SOT-1226
+K single D-type flip flop inverted
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G80.pdf
+$ENDCMP
+#
+$CMP 74LVC1G86GW
+D Single 2-input XOR gate, SOT-353-1
+K single XOR gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G86.pdf
+$ENDCMP
+#
+$CMP 74LVC1G86GV
+D Single 2-input XOR gate, SOT-753
+K single XOR gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G86.pdf
+$ENDCMP
+#
+$CMP 74LVC1G86GX
+D Single 2-input XOR gate, SOT-1226
+K single XOR gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G86.pdf
+$ENDCMP
+#
+$CMP 74LVC1G97
+D Single configurable 7-function gate, SOT-363/SOT-457/SOT-886/SOT-891/SOT-1115/SOT-1202/SOT-1255
+K single configurable gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G97.pdf
+$ENDCMP
+#
+$CMP 74LVC1G98
+D Single configurable 7-function gate, SOT-363/SOT-457/SOT-886/SOT-891/SOT-1115/SOT-1202/SOT-1255
+K single configurable gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G98.pdf
+$ENDCMP
+#
+$CMP 74LVC1G99DP
+D Single configurable 15-function gate, active-low enable, three-state output, SOT-505-2
+K single configurable gate three state
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G99.pdf
+$ENDCMP
+#
+$CMP 74LVC1G99GT
+D Single configurable 15-function gate, active-low enable, three-state output, SOT-833-1
+K single configurable gate three state
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G99.pdf
+$ENDCMP
+#
+$CMP 74LVC1G99GF
+D Single configurable 15-function gate, active-low enable, three-state output, SOT-1089
+K single configurable gate three state
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G99.pdf
+$ENDCMP
+#
+$CMP 74LVC1G99GN
+D Single configurable 15-function gate, active-low enable, three-state output, SOT-1116
+K single configurable gate three state
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G99.pdf
+$ENDCMP
+#
+$CMP 74LVC1G99GS
+D Single configurable 15-function gate, active-low enable, three-state output, SOT-1203
+K single configurable gate three state
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G99.pdf
+$ENDCMP
+#
+$CMP 74AUP1G0832
+D Single 3-input AND-OR combo gate (2-input AND into OR), SOT-363/SOT-886/SOT-891/SOT-1115/SOT-1202
+K single AND OR gate combo
+F https://assets.nexperia.com/documents/data-sheet/74AUP1G0832.pdf
+$ENDCMP
+#
+$CMP 74LVC2G00
+D Dual 2-input NAND gate, SOT-505-2/SOT-765-1/SOT-833-1/SOT-1089/SOT-1116/SOT-1203/SOT-1233
+K dual NAND gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC2G00.pdf
+$ENDCMP
+#
+$CMP 74LVC2G02
+D Dual 2-input NOR gate, SOT-505-2/SOT-765-1/SOT-833-1/SOT-1089/SOT-1116/SOT-1203
+K dual NOR gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC2G02.pdf
+$ENDCMP
+#
+$CMP 74LVC2G04
+D Dual inverter gate, SOT-363/SOT-457/SOT-886/SOT-891/SOT-1115/SOT-1202/SOT-1255
+K dual NOT gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC2G04.pdf
+$ENDCMP
+#
+$CMP 74LVC2G06
+D Dual inverter gate, open-drain output, SOT-363/SOT-457/SOT-886/SOT-891/SOT-1115/SOT-1202/SOT-1255
+K dual NOT gate open drain
+F https://assets.nexperia.com/documents/data-sheet/74LVC2G06.pdf
+$ENDCMP
+#
+$CMP 74LVC2G07
+D Dual buffer gate, open-drain output, SOT-363/SOT-457/SOT-886/SOT-891/SOT-1115/SOT-1202/SOT-1255
+K dual buffer open drain
+F https://assets.nexperia.com/documents/data-sheet/74LVC2G07.pdf
+$ENDCMP
+#
+$CMP 74LVC2G08
+D Dual 2-input AND gate, SOT-505-2/SOT-765-1/SOT-833-1/SOT-1089/SOT-996-2/SOT-1116/SOT-1203/SOT-1233
+K dual AND gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC2G08.pdf
+$ENDCMP
+#
+$CMP 74LVC2G14
+D Dual inverter gate, SOT-363/SOT-457/SOT-886/SOT-891/SOT-1115/SOT-1202
+K dual NOT gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC2G14.pdf
+$ENDCMP
+#
+$CMP 74LVC2G17
+D Dual buffer gate, SOT-363/SOT-457/SOT-886/SOT-891/SOT-1115/SOT-1202
+K dual buffer
+F https://assets.nexperia.com/documents/data-sheet/74LVC2G17.pdf
+$ENDCMP
+#
+$CMP 74LVC2G32
+D Dual 2-input OR gate, SOT-505-2/SOT-765-1/SOT-833-1/SOT-1089/SOT-1116/SOT-1203/SOT-1233
+K dual OR gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC2G32.pdf
+$ENDCMP
+#
+$CMP 74LVC2G34
+D Dual buffer gate, SOT-363/SOT-457/SOT-886/SOT-891/SOT-1115/SOT-1202/SOT-1255
+K dual buffer
+F https://assets.nexperia.com/documents/data-sheet/74LVC2G34.pdf
+$ENDCMP
+#
+$CMP 74LVC2G79
+D Dual D-type flip-flop, positive-edge trigger, SOT-765-1/SOT-833-1/SOT-1089/SOT-996-2/SOT-1116/SOT-1203
+K dual D-type flip flop
+F https://assets.nexperia.com/documents/data-sheet/74AUP2G79.pdf
+$ENDCMP
+#
+$CMP 74LVC2G80
+D Dual D-type flip-flop, positive-edge trigger, invert output, SOT-765-1/SOT-833-1/SOT-1089/SOT-996-2/SOT-1116/SOT-1203
+K dual D-type flip flop invert
+F https://assets.nexperia.com/documents/data-sheet/74AUP2G80.pdf
+$ENDCMP
+#
+$CMP 74LVC2G125
+D Dual buffer, active-low enable, three-state, SOT-505-2/SOT-765-1/SOT-833-1/SOT-1089/SOT-996-2/SOT-1116/SOT-1203
+K dual buffer three state
+F https://assets.nexperia.com/documents/data-sheet/74LVC2G125.pdf
+$ENDCMP
+#
+$CMP 74LVC2G126
+D Dual buffer, active-high enable, three-state, SOT-505-2/SOT-765-1/SOT-833-1/SOT-1089/SOT-996-2/SOT-1116/SOT-1203
+K dual buffer three state
+F https://assets.nexperia.com/documents/data-sheet/74LVC2G126.pdf
+$ENDCMP
+#
+$CMP 74LVC2G240
+D Dual inverter, active-low enable, three-state, SOT-505-2/SOT-765-1/SOT-833-1/SOT-1089/SOT-996-2/SOT-1116/SOT-1203
+K dual NOT gate three state
+F https://assets.nexperia.com/documents/data-sheet/74LVC2G240.pdf
+$ENDCMP
+#
+$CMP 74LVC2G241
+D Dual buffer, active-low and active-high enables, three-state, SOT-505-2/SOT-765-1/SOT-833-1/SOT-1089/SOT-996-2/SOT-1116/SOT-1203
+K dual buffer three state
+F https://assets.nexperia.com/documents/data-sheet/74LVC2G241.pdf
+$ENDCMP
+#
+$CMP 74AUP2G0604
+D Dual combo gates - one inverter, one inverter with open-drain, SOT-363/SOT-886/SOT-891/SOT-1115/SOT-1202
+K dual inverter open drain combo
+F https://assets.nexperia.com/documents/data-sheet/74AUP2G0604.pdf
+$ENDCMP
+#
+$CMP 74AUP2G3404
+D Dual combo gates - one buffer, one inverter, SOT-363/SOT-886/SOT-891/SOT-1115/SOT-1202
+K dual buffer inverter combo
+F https://assets.nexperia.com/documents/data-sheet/74AUP2G3404.pdf
+$ENDCMP
+#
+$CMP 74AUP2G3407
+D Dual combo gates - one buffer, one buffer with open drain, SOT-363/SOT-886/SOT-891/SOT-1115/SOT-1202
+K dual buffer open drain combo
+F https://assets.nexperia.com/documents/data-sheet/74AUP2G3407.pdf
+$ENDCMP
+#
+$CMP 74LVC3G04
+D Triple inverter gate, SOT-505-2/SOT-765-1/SOT-833-1/SOT-1089/SOT-996-2/SOT-1116/SOT-1203
+K triple NOT gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC3G04.pdf
+$ENDCMP
+#
+$CMP 74LVC3G06
+D Triple inverter gate, open-drain output, SOT-505-2/SOT-765-1/SOT-833-1/SOT-1089/SOT-996-2/SOT-1116/SOT-1203
+K triple NOT gate open drain
+F https://assets.nexperia.com/documents/data-sheet/74LVC3G06.pdf
+$ENDCMP
+#
+$CMP 74LVC3G07
+D Triple buffer gate, open-drain output, SOT-505-2/SOT-765-1/SOT-833-1/SOT-1089/SOT-996-2/SOT-1116/SOT-1203
+K triple buffer gate open drain
+F https://assets.nexperia.com/documents/data-sheet/74LVC3G07.pdf
+$ENDCMP
+#
+$CMP 74LVC3G14
+D Triple inverter gate, SOT-505-2/SOT-765-1/SOT-833-1/SOT-1089/SOT-996-2/SOT-1116/SOT-1203
+K triple NOT gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC3G14.pdf
+$ENDCMP
+#
+$CMP 74LVC3G17
+D Triple buffer gate, SOT-505-2/SOT-765-1/SOT-833-1/SOT-1089/SOT-996-2/SOT-1116/SOT-1203
+K triple buffer gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC3G17.pdf
+$ENDCMP
+#
+$CMP 74LVC3G34
+D Triple buffer gate, SOT-505-2/SOT-765-1/SOT-833-1/SOT-1089/SOT-996-2/SOT-1116/SOT-1203
+K triple buffer gate
+F https://assets.nexperia.com/documents/data-sheet/74LVC3G34.pdf
+$ENDCMP
+#
+$CMP 74AUP3G0434
+D Triple combo gates - two inverter, one buffer, SOT-765-1/SOT-833-1/SOT-1089/SOT-996-2/SOT-1116/SOT-1203
+K triple inverter buffer combo
+F https://assets.nexperia.com/documents/data-sheet/74AUP3G0434.pdf
+$ENDCMP
+#
+$CMP 74AUP3G3404
+D Triple combo gates - two buffer, one inverter, SOT-765-1/SOT-833-1/SOT-1089/SOT-996-2/SOT-1116/SOT-1203
+K triple buffer inverter combo
+F https://assets.nexperia.com/documents/data-sheet/74AUP3G3404.pdf
+$ENDCMP
+#
+#End Doc Library

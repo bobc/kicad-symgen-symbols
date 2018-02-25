@@ -1,0 +1,2117 @@
+# This script generates 74xgxx.lib via symgen
+#
+# Global Defaults
+#
+%lib Logic_74xgxx_DEV
+%pinlen 100
+%width 600
+%fill back
+%line 10
+%iconlib ../common_gr_templates/template.lib
+
+##### ====================================================================  OK
+#   
+COMP 74LVC1G00GW U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-353-1_1.25x2.05x1.1_P0.65"
+FPLIST
+SOT?353?1*
+DESC Single 2-input NAND gate, SOT-353-1
+KEYW single NAND gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G00.pdf
+UNIT NAND
+1 ~ I L
+2 ~ I L
+4 ~ ~O R
+UNIT PWR SEP
+3 GND PI B
+5 VCC PI T
+END
+
+#
+COMP 74LVC1G00GV U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-753_1.5x2.9x1.0_P0.95"
+FPLIST
+SOT?753*
+DESC Single 2-input NAND gate, SOT-753
+KEYW single NAND gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G00.pdf
+UNIT NAND
+1 ~ I L
+2 ~ I L
+4 ~ ~O R
+UNIT PWR SEP
+3 GND PI B
+5 VCC PI T
+END
+#
+COMP 74LVC1G00GX U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-1226_0.8x0.8x0.35_P0.48"
+FPLIST
+SOT?1226*
+DESC Single 2-input NAND gate, SOT-1226
+KEYW single NAND gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G00.pdf
+UNIT NAND
+1 ~ I L
+2 ~ I L
+4 ~ ~O R
+UNIT PWR SEP
+3 GND PI B
+5 VCC PI T
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC1G02GW U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-353-1_1.25x2.05x1.1_P0.65"
+FPLIST
+SOT?353?1*
+DESC Single 2-input NOR gate, SOT-353-1
+KEYW single NOR gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G02.pdf
+UNIT NOR
+1 ~ I L
+2 ~ I L
+4 ~ ~O R
+UNIT PWR SEP
+3 GND PI B
+5 VCC PI T
+END
+#
+COMP 74LVC1G02GV U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-753_1.5x2.9x1.0_P0.95"
+FPLIST
+SOT?753*
+DESC Single 2-input NOR gate, SOT-753
+KEYW single NOR gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G02.pdf
+UNIT NOR
+1 ~ I L
+2 ~ I L
+4 ~ ~O R
+UNIT PWR SEP
+3 GND PI B
+5 VCC PI T
+END
+#
+COMP 74LVC1G02GX U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-1226_0.8x0.8x0.35_P0.48"
+FPLIST
+SOT?1226*
+DESC Single 2-input NOR gate, SOT-1226
+KEYW single NOR gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G02.pdf
+UNIT NOR
+1 ~ I L
+2 ~ I L
+4 ~ ~O R
+UNIT PWR SEP
+3 GND PI B
+5 VCC PI T
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC1G04GW U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-353-1_1.25x2.05x1.1_P0.65"
+FPLIST
+SOT?353?1*
+DESC Single inverter gate, SOT-353-1
+KEYW single NOT gate inverter
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G04.pdf
+UNIT NOT
+2 ~ I L
+4 ~ ~O R
+UNIT PWR SEP
+3 GND PI B
+5 VCC PI T
+END
+#
+COMP 74LVC1G04GV U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-753_1.5x2.9x1.0_P0.95"
+FPLIST
+SOT?753*
+DESC Single inverter gate, SOT-753
+KEYW single NOT gate inverter
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G04.pdf
+UNIT NOT
+2 ~ I L
+4 ~ ~O R
+UNIT PWR SEP
+3 GND PI B
+5 VCC PI T
+END
+#
+COMP 74LVC1G04GX U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-1226_0.8x0.8x0.35_P0.48"
+FPLIST
+SOT?1226*
+DESC Single inverter gate, SOT-1226
+KEYW single NOT gate inverter
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G04.pdf
+UNIT NOT
+2 ~ I L
+4 ~ ~O R
+UNIT PWR SEP
+3 GND PI B
+5 VCC PI T
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC1G06GW U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-353-1_1.25x2.05x1.1_P0.65"
+FPLIST
+SOT?353?1*
+DESC Single inverter gate, open-drain output, SOT-353-1
+KEYW Single NOT gate inverter open drain
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G06.pdf
+UNIT NOT
+2 ~ I L
+4 ~ ~C R
+UNIT PWR SEP
+3 GND PI BC
+5 VCC PI TC
+END
+#
+COMP 74LVC1G06GV U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-753_1.5x2.9x1.0_P0.95"
+FPLIST
+SOT?753*
+DESC Single inverter gate, open-drain output, SOT-753
+KEYW Single NOT gate inverter open drain
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G06.pdf
+UNIT NOT
+2 ~ I L
+4 ~ ~C R
+UNIT PWR SEP
+3 GND PI BC
+5 VCC PI TC
+END
+#
+COMP 74LVC1G06GX U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-1226_0.8x0.8x0.35_P0.48"
+FPLIST
+SOT?1226*
+DESC Single inverter gate, open-drain output, SOT-1226
+KEYW Single NOT gate inverter open drain
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G06.pdf
+UNIT NOT
+2 ~ I L
+4 ~ ~C R
+UNIT PWR SEP
+3 GND PI BC
+5 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC1G07GW U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-353-1_1.25x2.05x1.1_P0.65"
+FPLIST
+SOT?353?1*
+DESC Single buffer gate, open-drain output, SOT-353-1
+KEYW single buffer gate open drain
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G07.pdf
+UNIT BUF
+2 ~ I L
+4 ~ C R
+UNIT PWR SEP
+3 GND PI BC
+5 VCC PI TC
+END
+#
+COMP 74LVC1G07GV U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-753_1.5x2.9x1.0_P0.95"
+FPLIST
+SOT?753*
+DESC Single buffer gate, open-drain output, SOT-753
+KEYW single buffer gate open drain
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G07.pdf
+UNIT BUF
+2 ~ I L
+4 ~ C R
+UNIT PWR SEP
+3 GND PI BC
+5 VCC PI TC
+END
+#
+COMP 74LVC1G07GX U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-1226_0.8x0.8x0.35_P0.48"
+FPLIST
+SOT?1226*
+DESC Single buffer gate, open-drain output, SOT-1226
+KEYW single buffer gate open drain
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G07.pdf
+UNIT BUF
+2 ~ I L
+4 ~ C R
+UNIT PWR SEP
+3 GND PI BC
+5 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC1G08GW U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-353-1_1.25x2.05x1.1_P0.65"
+FPLIST
+SOT?353?1*
+DESC Single 2-input AND gate, SOT-353-1
+KEYW single AND gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G08.pdf
+UNIT AND
+1 ~ I L
+2 ~ I L
+4 ~ O R
+UNIT PWR SEP
+3 GND PI BC
+5 VCC PI TC
+END
+#
+COMP 74LVC1G08GV U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-753_1.5x2.9x1.0_P0.95"
+FPLIST
+SOT?753*
+DESC Single 2-input AND gate, SOT-753
+KEYW single AND gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G08.pdf
+UNIT AND
+1 ~ I L
+2 ~ I L
+4 ~ O R
+UNIT PWR SEP
+3 GND PI BC
+5 VCC PI TC
+END
+#
+COMP 74LVC1G08GX U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-1226_0.8x0.8x0.35_P0.48"
+FPLIST
+SOT?1226*
+DESC Single 2-input AND gate, SOT-1226
+KEYW single AND gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G08.pdf
+UNIT AND
+1 ~ I L
+2 ~ I L
+4 ~ O R
+UNIT PWR SEP
+3 GND PI BC
+5 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74AUP1G09GW U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-353-1_1.25x2.05x1.1_P0.65"
+FPLIST
+SOT?353?1*
+DESC Single 2-input AND gate, open-drain output, SOT-353-1
+KEYW single AND gate open drain
+DOC https://assets.nexperia.com/documents/data-sheet/74AUP1G09.pdf
+UNIT AND
+1 ~ I L
+2 ~ I L
+4 ~ C R
+UNIT PWR SEP
+3 GND PI BC
+5 VCC PI TC
+END
+#
+COMP 74AUP1G09GX U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-1226_0.8x0.8x0.35_P0.48"
+FPLIST
+SOT?1226*
+DESC Single 2-input AND gate, open-drain output, SOT-1226
+KEYW single AND gate open drain
+DOC https://assets.nexperia.com/documents/data-sheet/74AUP1G09.pdf
+UNIT AND
+1 ~ I L
+2 ~ I L
+4 ~ C R
+UNIT PWR SEP
+3 GND PI BC
+5 VCC PI TC
+END
+
+
+##### ====================================================================  OK
+#
+COMP 74LVC1G123DP U
+%fill back
+%width 0
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-505-2_3.0x3.0x1.1_P0.65"
+FPLIST
+SOT?505?2*
+DESC Single retriggerable monostable multivibrator, clear, SOT-505-2
+KEYW single multivibrator
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G123.pdf
+UNIT
+1 ~A I L
+2 B I L
+3 ~CLR I L
+5 Q O R
+6 CEXT P R
+7 REXT/CEXT P R
+UNIT PWR COMB
+4 GND PI BC
+8 VCC PI TC
+END
+#
+COMP 74LVC1G123DC U
+%fill back
+%width 0
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-765-1_2.3x2.0x1.0_P0.5"
+FPLIST
+SOT?765?1*
+DESC Single retriggerable monostable multivibrator, clear, SOT-765-1
+KEYW single multivibrator
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G123.pdf
+UNIT
+1 ~A I L
+2 B I L
+3 ~CLR I L
+5 Q O R
+6 CEXT P R
+7 REXT/CEXT P R
+UNIT PWR COMB
+4 GND PI BC
+8 VCC PI TC
+END
+#
+COMP 74LVC1G123GT U
+%fill back
+%width 0
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-833-1_1.0x1.95x0.5_P0.5"
+FPLIST
+SOT?833?1*
+DESC Single retriggerable monostable multivibrator, clear, SOT-833-1
+KEYW single multivibrator
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G123.pdf
+UNIT
+1 ~A I L
+2 B I L
+3 ~CLR I L
+5 Q O R
+6 CEXT P R
+7 REXT/CEXT P R
+UNIT PWR COMB
+4 GND PI BC
+8 VCC PI TC
+END
+#
+COMP 74LVC1G123GF U
+%fill back
+%width 0
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-1089_1.0x1.35x0.5_P0.35"
+FPLIST
+SOT?1089*
+DESC Single retriggerable monostable multivibrator, clear, SOT-1089
+KEYW single multivibrator
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G123.pdf
+UNIT
+1 ~A I L
+2 B I L
+3 ~CLR I L
+5 Q O R
+6 CEXT P R
+7 REXT/CEXT P R
+UNIT PWR COMB
+4 GND PI BC
+8 VCC PI TC
+END
+#
+COMP 74LVC1G123GD U
+%fill back
+%width 0
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-996-2_3.0x2.0x0.5_P0.5"
+FPLIST
+SOT?996?2*
+DESC Single retriggerable monostable multivibrator, clear, SOT-996-2
+KEYW single multivibrator
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G123.pdf
+UNIT
+1 ~A I L
+2 B I L
+3 ~CLR I L
+5 Q O R
+6 CEXT P R
+7 REXT/CEXT P R
+UNIT PWR COMB
+4 GND PI BC
+8 VCC PI TC
+END
+#
+COMP 74LVC1G123GN U
+%fill back
+%width 0
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-1116_1.0x1.2x0.35_P0.3"
+FPLIST
+SOT?1116*
+DESC Single retriggerable monostable multivibrator, clear, SOT-1116
+KEYW single multivibrator
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G123.pdf
+UNIT
+1 ~A I L
+2 B I L
+3 ~CLR I L
+5 Q O R
+6 CEXT P R
+7 REXT/CEXT P R
+UNIT PWR COMB
+4 GND PI BC
+8 VCC PI TC
+END
+#
+COMP 74LVC1G123GS U
+%fill back
+%width 0
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-1203_1.0x1.35x0.35_P0.35"
+FPLIST
+SOT?1203*
+DESC Single retriggerable monostable multivibrator, clear, SOT-1203
+KEYW single multivibrator
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G123.pdf
+UNIT
+1 ~A I L
+2 B I L
+3 ~CLR I L
+5 Q O R
+6 CEXT P R
+7 REXT/CEXT P R
+UNIT PWR COMB
+4 GND PI BC
+8 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC1G125GW U
+%fill back
+%width 400
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-353-1_1.25x2.05x1.1_P0.65"
+FPLIST
+SOT?353?1*
+DESC Single buffer gate, active-low enable, three-state output, SOT-353-1
+KEYW single buffer gate three state
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G125.pdf
+UNIT BUF
+2 ~ I L
+1 ~ ~I B
+4 ~ O R
+UNIT PWR SEP
+3 GND PI BC
+5 VCC PI TC
+END
+#
+COMP 74LVC1G125GV U
+%fill back
+%width 400
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-753_1.5x2.9x1.0_P0.95"
+FPLIST
+SOT?753*
+DESC Single buffer gate, active-low enable, three-state output, SOT-753
+KEYW single buffer gate three state
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G125.pdf
+UNIT BUF
+2 ~ I L
+1 ~ ~I B
+4 ~ O R
+UNIT PWR SEP
+3 GND PI BC
+5 VCC PI TC
+END
+#
+COMP 74LVC1G125GX U
+%fill back
+%width 400
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-1226_0.8x0.8x0.35_P0.48"
+FPLIST
+SOT?1226*
+DESC Single buffer gate, active-low enable, three-state output, SOT-1226
+KEYW single buffer gate three state
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G125.pdf
+UNIT BUF
+2 ~ I L
+1 ~ ~I B
+4 ~ O R
+UNIT PWR SEP
+3 GND PI BC
+5 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC1G126GW U
+%fill back
+%width 400
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-353-1_1.25x2.05x1.1_P0.65"
+FPLIST
+SOT?353?1*
+DESC Single buffer gate, active-high enable, three-state output, SOT-353-1
+KEYW single buffer gate three state
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G126.pdf
+UNIT BUF
+2 ~ I L
+1 ~ I B
+4 ~ O R
+UNIT PWR SEP
+3 GND PI BC
+5 VCC PI TC
+END
+#
+COMP 74LVC1G126GV U
+%fill back
+%width 400
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-753_1.5x2.9x1.0_P0.95"
+FPLIST
+SOT?753*
+DESC Single buffer gate, active-high enable, three-state output, SOT-753
+KEYW single buffer gate three state
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G126.pdf
+UNIT BUF
+2 ~ I L
+1 ~ I B
+4 ~ O R
+UNIT PWR SEP
+3 GND PI BC
+5 VCC PI TC
+END
+#
+COMP 74LVC1G126GX U
+%fill back
+%width 400
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-1226_0.8x0.8x0.35_P0.48"
+FPLIST
+SOT?1226*
+DESC Single buffer gate, active-high enable, three-state output, SOT-1226
+KEYW single buffer gate three state
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G126.pdf
+UNIT BUF
+2 ~ I L
+1 ~ I B
+4 ~ O R
+UNIT PWR SEP
+3 GND PI BC
+5 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC1G14GW U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-353-1_1.25x2.05x1.1_P0.65"
+FPLIST
+SOT?353?1*
+DESC Single inverter gate, SOT-353-1
+KEYW single NOT gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G14.pdf
+UNIT NOT
+2 ~ I L
+4 ~ ~O R
+UNIT PWR SEP
+3 GND PI BC
+5 VCC PI TC
+1 ~ NN B
+END
+#
+COMP 74LVC1G14GV U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-753_1.5x2.9x1.0_P0.95"
+FPLIST
+SOT?753*
+DESC Single inverter gate, SOT-753
+KEYW single NOT gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G14.pdf
+UNIT NOT
+2 ~ I L
+4 ~ ~O R
+UNIT PWR SEP
+3 GND PI BC
+5 VCC PI TC
+1 ~ NN B
+END
+#
+COMP 74LVC1G14GX U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-1226_0.8x0.8x0.35_P0.48"
+FPLIST
+SOT?1226*
+DESC Single inverter gate, SOT-1226
+KEYW single NOT gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G14.pdf
+UNIT NOT
+2 ~ I L
+4 ~ ~O R
+UNIT PWR SEP
+3 GND PI BC
+5 VCC PI TC
+1 ~ NN B
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC1G17GW U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-353-1_1.25x2.05x1.1_P0.65"
+FPLIST
+SOT?353?1*
+DESC Single buffer gate, SOT-353-1
+KEYW single buffer gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G17.pdf
+UNIT BUF
+2 ~ I L
+4 ~ O R
+UNIT PWR SEP
+3 GND PI BC
+5 VCC PI TC
+1 ~ NN B
+END
+#
+COMP 74LVC1G17GV U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-753_1.5x2.9x1.0_P0.95"
+FPLIST
+SOT?753*
+DESC Single buffer gate, SOT-753
+KEYW single buffer gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G17.pdf
+UNIT BUF
+2 ~ I L
+4 ~ O R
+UNIT PWR SEP
+3 GND PI BC
+5 VCC PI TC
+1 ~ NN B
+END
+#
+COMP 74LVC1G17GX U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-1226_0.8x0.8x0.35_P0.48"
+FPLIST
+SOT?1226*
+DESC Single buffer gate, SOT-1226
+KEYW single buffer gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G17.pdf
+UNIT BUF
+2 ~ I L
+4 ~ O R
+UNIT PWR SEP
+3 GND PI BC
+5 VCC PI TC
+1 ~ NN B
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC1G27 U
+%fill back
+FPLIST
+SOT?363*
+SOT?457*
+SOT?886*
+SOT?891*
+SOT?1115*
+SOT?1202*
+DESC Single 3-input NOR gate, SOT-363/SOT-457/SOT-886/SOT-891/SOT-1115/SOT-1202
+KEYW single NOR gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G27.pdf
+UNIT NOR
+1 ~ I L
+3 ~ I L
+6 ~ I L
+4 ~ ~O R
+UNIT PWR SEP
+2 GND PI BC
+5 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC1G32GW U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-353-1_1.25x2.05x1.1_P0.65"
+FPLIST
+SOT?353?1*
+DESC Single 2-input OR gate, SOT-353-1
+KEYW single OR gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G32.pdf
+UNIT OR
+1 ~ I L
+2 ~ I L
+4 ~ O R
+UNIT PWR SEP
+3 GND PI BC
+5 VCC PI TC
+END
+#
+COMP 74LVC1G32GV U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-753_1.5x2.9x1.0_P0.95"
+FPLIST
+SOT?753*
+DESC Single 2-input OR gate, SOT-753
+KEYW single OR gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G32.pdf
+UNIT OR
+1 ~ I L
+2 ~ I L
+4 ~ O R
+UNIT PWR SEP
+3 GND PI BC
+5 VCC PI TC
+END
+#
+COMP 74LVC1G32GX U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-1226_0.8x0.8x0.35_P0.48"
+FPLIST
+SOT?1226*
+DESC Single 2-input OR gate, SOT-1226
+KEYW single OR gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G32.pdf
+UNIT OR
+1 ~ I L
+2 ~ I L
+4 ~ O R
+UNIT PWR SEP
+3 GND PI BC
+5 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74AUP1G3208 U
+%fill back
+%width 600
+FPLIST
+SOT?363*
+SOT?886*
+SOT?891*
+SOT?1115*
+SOT?1202*
+SOT?1255*
+DESC Single 3-input OR-AND combo gate (2-input OR into AND), SOT-363/SOT-886/SOT-891/SOT-1115/SOT-1202/SOT-1255
+KEYW single OR AND gate combo
+DOC https://assets.nexperia.com/documents/data-sheet/74AUP1G3208.pdf
+UNIT ICON icon_74AUP1G3208
+1 ~ I L
+3 ~ I L
+6 ~ I L
+4 ~ O R
+UNIT PWR SEP
+2 GND PI BC
+5 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC1G34GW U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-353-1_1.25x2.05x1.1_P0.65"
+FPLIST
+SOT?353?1*
+DESC Single buffer gate, SOT-353-1
+KEYW single buffer gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G34.pdf
+UNIT BUF
+2 ~ I L
+4 ~ O R
+UNIT PWR SEP
+3 GND PI BC
+5 VCC PI TC
+1 ~ NN B
+END
+#
+COMP 74LVC1G34GV U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-753_1.5x2.9x1.0_P0.95"
+FPLIST
+SOT?753*
+DESC Single buffer gate, SOT-753
+KEYW single buffer gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G34.pdf
+UNIT BUF
+2 ~ I L
+4 ~ O R
+UNIT PWR SEP
+3 GND PI BC
+5 VCC PI TC
+1 ~ NN B
+END
+#
+COMP 74LVC1G34GX U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-1226_0.8x0.8x0.35_P0.48"
+FPLIST
+SOT?1226*
+DESC Single buffer gate, SOT-1226
+KEYW single buffer gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G34.pdf
+UNIT BUF
+2 ~ I L
+4 ~ O R
+UNIT PWR SEP
+3 GND PI BC
+5 VCC PI TC
+1 ~ NN B
+END
+
+##### ====================================================================  OK
+#
+COMP 74AUP1G373 U
+%fill back
+%width 0
+FPLIST
+SOT?363*
+SOT?886*
+SOT?891*
+SOT?1115*
+SOT?1202*
+DESC Single transparent latch, active-low enable, three-state output, SOT-363/SOT-886/SOT-891/SOT-1115/SOT-1202
+KEYW single latch three state
+DOC https://assets.nexperia.com/documents/data-sheet/74AUP1G373.pdf
+UNIT
+3 D I L
+SPC L
+SPC L
+1 LE I L
+4 Q O R
+6 ~OE I BC
+UNIT PWR SEP
+2 GND PI BC
+5 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74AUP1G374 U
+%fill back
+%width 0
+FPLIST
+SOT?363*
+SOT?886*
+SOT?891*
+SOT?1115*
+SOT?1202*
+DESC Single D-type flip-flop, active-low enable, three-state output, SOT-363/SOT-886/SOT-891/SOT-1115/SOT-1202
+KEYW single D-type flip flop three state
+DOC https://assets.nexperia.com/documents/data-sheet/74AUP1G374.pdf
+UNIT
+3 D I L
+SPC L
+SPC L
+1 CP CI L
+4 Q O R
+6 ~OE I BC
+UNIT PWR SEP
+2 GND PI BC
+5 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC1G386 U
+%fill back
+FPLIST
+SOT?363*
+SOT?457*
+DESC Single 3-input XOR Gate (a.k.a. even-parity generator), SOT-363/SOT-457
+KEYW single XOR gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G386.pdf
+UNIT XOR
+1 ~ I L
+3 ~ I L
+6 ~ I L
+4 ~ O R
+UNIT PWR SEP
+2 GND PI BC
+5 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC1G57 U
+%fill back
+FPLIST
+SOT?363*
+SOT?457*
+SOT?886*
+SOT?891*
+SOT?1115*
+SOT?1202*
+DESC Single configurable 7-function gate, SOT-363/SOT-457/SOT-886/SOT-891/SOT-1115/SOT-1202
+KEYW single configurable gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G57.pdf
+UNIT
+3 A I L
+1 B I L
+6 C I L
+4 Y O R
+UNIT PWR
+2 GND PI BC
+5 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC1G58 U
+%fill back
+FPLIST
+SOT?363*
+SOT?457*
+SOT?886*
+SOT?891*
+SOT?1115*
+SOT?1202*
+DESC Single configurable 7-function gate, SOT-363/SOT-457/SOT-886/SOT-891/SOT-1115/SOT-1202
+KEYW single configurable gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G58.pdf
+UNIT
+3 A I L
+1 B I L
+6 C I L
+4 Y O R
+UNIT PWR
+2 GND PI BC
+5 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC1G79GW U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-353-1_1.25x2.05x1.1_P0.65"
+FPLIST
+SOT?353?1*
+DESC Single D-type flip-flop, positive-edge trigger, SOT-353-1
+KEYW single D-type flip flop
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G79.pdf
+UNIT
+1 D I L
+SPC L
+SPC L
+2 CP CI L
+4 Q O R
+UNIT PWR
+3 GND PI BC
+5 VCC PI TC
+END
+#
+COMP 74LVC1G79GV U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-753_1.5x2.9x1.0_P0.95"
+FPLIST
+SOT?753*
+DESC Single D-type flip-flop, positive-edge trigger, SOT-753
+KEYW single D-type flip flop
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G79.pdf
+UNIT
+1 D I L
+SPC L
+SPC L
+2 CP CI L
+4 Q O R
+UNIT PWR
+3 GND PI BC
+5 VCC PI TC
+END
+#
+COMP 74LVC1G79GX U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-1226_0.8x0.8x0.35_P0.48"
+FPLIST
+SOT?1226*
+DESC Single D-type flip-flop, positive-edge trigger, SOT-1226
+KEYW single D-type flip flop
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G79.pdf
+UNIT
+1 D I L
+SPC L
+SPC L
+2 CP CI L
+4 Q O R
+UNIT PWR
+3 GND PI BC
+5 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC1G80GW U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-353-1_1.25x2.05x1.1_P0.65"
+FPLIST
+SOT?353?1*
+DESC Single D-type flip-flop, positive-edge trigger, inverted output, SOT-353-1
+KEYW single D-type flip flop inverted
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G80.pdf
+UNIT
+1 D I L
+SPC L
+SPC L
+2 CP CI L
+4 ~Q O R
+UNIT PWR
+3 GND PI BC
+5 VCC PI TC
+END
+#
+COMP 74LVC1G80GV U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-753_1.5x2.9x1.0_P0.95"
+FPLIST
+SOT?753*
+DESC Single D-type flip-flop, positive-edge trigger, inverted output, SOT-753
+KEYW single D-type flip flop inverted
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G80.pdf
+UNIT
+1 D I L
+SPC L
+SPC L
+2 CP CI L
+4 ~Q O R
+UNIT PWR
+3 GND PI BC
+5 VCC PI TC
+END
+#
+COMP 74LVC1G80GX U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-1226_0.8x0.8x0.35_P0.48"
+FPLIST
+SOT?1226*
+DESC Single D-type flip-flop, positive-edge trigger, inverted output, SOT-1226
+KEYW single D-type flip flop inverted
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G80.pdf
+UNIT
+1 D I L
+SPC L
+SPC L
+2 CP CI L
+4 ~Q O R
+UNIT PWR
+3 GND PI BC
+5 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC1G86GW U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-353-1_1.25x2.05x1.1_P0.65"
+FPLIST
+SOT?353?1*
+DESC Single 2-input XOR gate, SOT-353-1
+KEYW single XOR gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G86.pdf
+UNIT XOR
+1 ~ I L
+2 ~ I L
+4 ~ O R
+UNIT PWR SEP
+3 GND PI BC
+5 VCC PI TC
+END
+#
+COMP 74LVC1G86GV U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-753_1.5x2.9x1.0_P0.95"
+FPLIST
+SOT?753*
+DESC Single 2-input XOR gate, SOT-753
+KEYW single XOR gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G86.pdf
+UNIT XOR
+1 ~ I L
+2 ~ I L
+4 ~ O R
+UNIT PWR SEP
+3 GND PI BC
+5 VCC PI TC
+END
+#
+COMP 74LVC1G86GX U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-1226_0.8x0.8x0.35_P0.48"
+FPLIST
+SOT?1226*
+DESC Single 2-input XOR gate, SOT-1226
+KEYW single XOR gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G86.pdf
+UNIT XOR
+1 ~ I L
+2 ~ I L
+4 ~ O R
+UNIT PWR SEP
+3 GND PI BC
+5 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC1G97 U
+%fill back
+FPLIST
+SOT?363*
+SOT?457*
+SOT?886*
+SOT?1115*
+SOT?1202*
+SOT?1255*
+DESC Single configurable 7-function gate, SOT-363/SOT-457/SOT-886/SOT-891/SOT-1115/SOT-1202/SOT-1255
+KEYW single configurable gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G97.pdf
+UNIT
+3 A I L
+1 B I L
+6 C I L
+4 Y O R
+UNIT PWR
+2 GND PI BC
+5 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC1G98 U
+%fill back
+FPLIST
+SOT?363*
+SOT?457*
+SOT?886*
+SOT?1115*
+SOT?1202*
+SOT?1255*
+DESC Single configurable 7-function gate, SOT-363/SOT-457/SOT-886/SOT-891/SOT-1115/SOT-1202/SOT-1255
+KEYW single configurable gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G98.pdf
+UNIT
+3 A I L
+1 B I L
+6 C I L
+4 Y O R
+UNIT PWR
+2 GND PI BC
+5 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC1G99DP U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-505-2_3.0x3.0x1.1_P0.65"
+FPLIST
+SOT?505?2*
+DESC Single configurable 15-function gate, active-low enable, three-state output, SOT-505-2
+KEYW single configurable gate three state
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G99.pdf
+UNIT
+1 ~OE I L
+2 A I L
+3 B I L
+5 C I L
+6 D I L
+7 Y O R
+UNIT PWR
+4 GND PI BC
+8 VCC PI TC
+END
+#
+COMP 74LVC1G99GT U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-833-1_1.0x1.95x0.5_P0.5"
+FPLIST
+SOT?833?1*
+DESC Single configurable 15-function gate, active-low enable, three-state output, SOT-833-1
+KEYW single configurable gate three state
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G99.pdf
+UNIT
+1 ~OE I L
+2 A I L
+3 B I L
+5 C I L
+6 D I L
+7 Y O R
+UNIT PWR
+4 GND PI BC
+8 VCC PI TC
+END
+#
+COMP 74LVC1G99GF U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-1089_1.0x1.35x0.5_P0.35"
+FPLIST
+SOT?1089*
+DESC Single configurable 15-function gate, active-low enable, three-state output, SOT-1089
+KEYW single configurable gate three state
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G99.pdf
+UNIT
+1 ~OE I L
+2 A I L
+3 B I L
+5 C I L
+6 D I L
+7 Y O R
+UNIT PWR
+4 GND PI BC
+8 VCC PI TC
+END
+#
+COMP 74LVC1G99GN U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-1116_1.0x1.2x0.35_P0.3"
+FPLIST
+SOT?1116*
+DESC Single configurable 15-function gate, active-low enable, three-state output, SOT-1116
+KEYW single configurable gate three state
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G99.pdf
+UNIT
+1 ~OE I L
+2 A I L
+3 B I L
+5 C I L
+6 D I L
+7 Y O R
+UNIT PWR
+4 GND PI BC
+8 VCC PI TC
+END
+#
+COMP 74LVC1G99GS U
+%fill back
+FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-1203_1.0x1.35x0.35_P0.35"
+FPLIST
+SOT?1203*
+DESC Single configurable 15-function gate, active-low enable, three-state output, SOT-1203
+KEYW single configurable gate three state
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC1G99.pdf
+UNIT
+1 ~OE I L
+2 A I L
+3 B I L
+5 C I L
+6 D I L
+7 Y O R
+UNIT PWR
+4 GND PI BC
+8 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74AUP1G0832 U
+%fill back
+FPLIST
+SOT?363*
+SOT?886*
+SOT?891*
+SOT?1115*
+SOT?1202*
+DESC Single 3-input AND-OR combo gate (2-input AND into OR), SOT-363/SOT-886/SOT-891/SOT-1115/SOT-1202
+KEYW single AND OR gate combo
+DOC https://assets.nexperia.com/documents/data-sheet/74AUP1G0832.pdf
+UNIT
+1 A I L
+3 B I L
+6 C I L
+4 Y O R
+UNIT PWR
+2 GND PI BC
+5 VCC PI TC
+END
+
+
+########################################
+# 74x2G
+########################################        OK
+#
+COMP 74LVC2G00 U
+%fill back
+FPLIST
+SOT?505?2*
+SOT?765?1*
+SOT?833?1*
+SOT?1089*
+SOT?1116*
+SOT?1203*
+DESC Dual 2-input NAND gate, SOT-505-2/SOT-765-1/SOT-833-1/SOT-1089/SOT-1116/SOT-1203/SOT-1233
+KEYW dual NAND gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC2G00.pdf
+UNIT NAND
+1 ~ I L
+2 ~ I L
+7 ~ O R
+UNIT NAND
+5 ~ I L
+6 ~ I L
+3 ~ O R
+UNIT PWR SEP
+4 GND PI BC
+8 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC2G02 U
+%fill back
+FPLIST
+SOT?505?2*
+SOT?765?1*
+SOT?833?1*
+SOT?1089*
+SOT?1116*
+SOT?1203*
+DESC Dual 2-input NOR gate, SOT-505-2/SOT-765-1/SOT-833-1/SOT-1089/SOT-1116/SOT-1203
+KEYW dual NOR gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC2G02.pdf
+UNIT NOR
+1 ~ I L
+2 ~ I L
+7 ~ O R
+UNIT NOR
+5 ~ I L
+6 ~ I L
+3 ~ O R
+UNIT PWR SEP
+4 GND PI BC
+8 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC2G04 U
+%fill back
+FPLIST
+SOT?363*
+SOT?457*
+SOT?886*
+SOT?891*
+SOT?1115*
+SOT?1202*
+SOT?1255*
+DESC Dual inverter gate, SOT-363/SOT-457/SOT-886/SOT-891/SOT-1115/SOT-1202/SOT-1255
+KEYW dual NOT gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC2G04.pdf
+UNIT NOT
+1 ~ I L
+6 ~ O R
+UNIT NOT
+3 ~ I L
+4 ~ O R
+UNIT PWR SEP
+2 GND PI BC
+5 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC2G06 U
+%fill back
+FPLIST
+SOT?363*
+SOT?457*
+SOT?886*
+SOT?891*
+SOT?1115*
+SOT?1202*
+SOT?1255*
+DESC Dual inverter gate, open-drain output, SOT-363/SOT-457/SOT-886/SOT-891/SOT-1115/SOT-1202/SOT-1255
+KEYW dual NOT gate open drain
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC2G06.pdf
+UNIT NOT
+1 ~ I L
+6 ~ ~C R
+UNIT NOT
+3 ~ I L
+4 ~ ~C R
+UNIT PWR SEP
+2 GND PI BC
+5 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC2G07 U
+%fill back
+FPLIST
+SOT?363*
+SOT?457*
+SOT?886*
+SOT?891*
+SOT?1115*
+SOT?1202*
+SOT?1255*
+DESC Dual buffer gate, open-drain output, SOT-363/SOT-457/SOT-886/SOT-891/SOT-1115/SOT-1202/SOT-1255
+KEYW dual buffer open drain
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC2G07.pdf
+UNIT BUF
+1 ~ I L
+6 ~ ~C R
+UNIT BUF
+3 ~ I L
+4 ~ ~C R
+UNIT PWR SEP
+2 GND PI BC
+5 VCC PI TC
+END
+
+##### ====================================================================          OK
+#
+COMP 74LVC2G08 U
+%fill back
+FPLIST
+SOT?505?2*
+SOT?765?1*
+SOT?833?1*
+SOT?1089*
+SOT?996?2*
+SOT?1116*
+SOT?1203*
+SOT?1233*
+DESC Dual 2-input AND gate, SOT-505-2/SOT-765-1/SOT-833-1/SOT-1089/SOT-996-2/SOT-1116/SOT-1203/SOT-1233
+KEYW dual AND gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC2G08.pdf
+UNIT AND
+1 ~ I L
+2 ~ I L
+7 ~ O R
+UNIT AND
+5 ~ I L
+6 ~ I L
+3 ~ O R
+UNIT PWR SEP
+4 GND PI BC
+8 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC2G14 U
+%fill back
+FPLIST
+SOT?363*
+SOT?457*
+SOT?886*
+SOT?891*
+SOT?1115*
+SOT?1202*
+DESC Dual inverter gate, SOT-363/SOT-457/SOT-886/SOT-891/SOT-1115/SOT-1202
+KEYW dual NOT gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC2G14.pdf
+UNIT NOT
+1 ~ I L
+6 ~ O R
+UNIT NOT
+3 ~ I L
+4 ~ O R
+UNIT PWR SEP
+2 GND PI BC
+5 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC2G17 U
+%fill back
+FPLIST
+SOT?363*
+SOT?457*
+SOT?886*
+SOT?891*
+SOT?1115*
+SOT?1202*
+DESC Dual buffer gate, SOT-363/SOT-457/SOT-886/SOT-891/SOT-1115/SOT-1202
+KEYW dual buffer
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC2G17.pdf
+UNIT BUF
+1 ~ I L
+6 ~ O R
+UNIT BUF
+3 ~ I L
+4 ~ O R
+UNIT PWR SEP
+2 GND PI BC
+5 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC2G32 U
+%fill back
+FPLIST
+SOT?505?2*
+SOT?765?1*
+SOT?833?1*
+SOT?1089*
+SOT?1116*
+SOT?1203*
+SOT?1233*
+DESC Dual 2-input OR gate, SOT-505-2/SOT-765-1/SOT-833-1/SOT-1089/SOT-1116/SOT-1203/SOT-1233
+KEYW dual OR gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC2G32.pdf
+UNIT OR
+1 ~ I L
+2 ~ I L
+7 ~ O R
+UNIT OR
+5 ~ I L
+6 ~ I L
+3 ~ O R
+UNIT PWR SEP
+4 GND PI BC
+8 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC2G34 U
+%fill back
+FPLIST
+SOT?363*
+SOT?457*
+SOT?886*
+SOT?891*
+SOT?1115*
+SOT?1202*
+SOT?1255*
+DESC Dual buffer gate, SOT-363/SOT-457/SOT-886/SOT-891/SOT-1115/SOT-1202/SOT-1255
+KEYW dual buffer
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC2G34.pdf
+UNIT BUF
+1 ~ I L
+6 ~ O R
+UNIT BUF
+3 ~ I L
+4 ~ O R
+UNIT PWR SEP
+2 GND PI BC
+5 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC2G79 U
+%fill back
+%width 400
+FPLIST
+SOT?765?1*
+SOT?833?1*
+SOT?1089*
+SOT?996?2*
+SOT?1116*
+SOT?1203*
+DESC Dual D-type flip-flop, positive-edge trigger, SOT-765-1/SOT-833-1/SOT-1089/SOT-996-2/SOT-1116/SOT-1203
+KEYW dual D-type flip flop
+DOC https://assets.nexperia.com/documents/data-sheet/74AUP2G79.pdf
+UNIT
+2 D I L
+SPC L
+SPC L
+1 CP CI L
+7 Q O R
+UNIT
+6 D I L
+SPC L
+SPC L
+5 CP CI L
+3 Q O R
+UNIT PWR SEP
+4 GND PI BC
+8 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC2G80 U
+%fill back
+%width 400
+FPLIST
+SOT?765?1*
+SOT?833?1*
+SOT?1089*
+SOT?996?2*
+SOT?1116*
+SOT?1203*
+DESC Dual D-type flip-flop, positive-edge trigger, invert output, SOT-765-1/SOT-833-1/SOT-1089/SOT-996-2/SOT-1116/SOT-1203
+KEYW dual D-type flip flop invert
+DOC https://assets.nexperia.com/documents/data-sheet/74AUP2G80.pdf
+UNIT
+2 D I L
+SPC L
+SPC L
+1 CP CI L
+7 ~Q O R
+UNIT
+6 D I L
+SPC L
+SPC L
+5 CP CI L
+3 ~Q O R
+UNIT PWR SEP
+4 GND PI BC
+8 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC2G125 U
+%fill back
+FPLIST
+SOT?505?2*
+SOT?765?1*
+SOT?833?1*
+SOT?1089*
+SOT?996?2*
+SOT?1116*
+SOT?1203*
+DESC Dual buffer, active-low enable, three-state, SOT-505-2/SOT-765-1/SOT-833-1/SOT-1089/SOT-996-2/SOT-1116/SOT-1203
+KEYW dual buffer three state
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC2G125.pdf
+UNIT BUF
+2 ~ I L
+1 ~ ~I T
+6 ~ O R
+UNIT BUF
+5 ~ I L
+7 ~ ~I T
+3 ~ O R
+UNIT PWR SEP
+4 GND PI BC
+8 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC2G126 U
+%fill back
+FPLIST
+SOT?505?2*
+SOT?765?1*
+SOT?833?1*
+SOT?1089*
+SOT?996?2*
+SOT?1116*
+SOT?1203*
+DESC Dual buffer, active-high enable, three-state, SOT-505-2/SOT-765-1/SOT-833-1/SOT-1089/SOT-996-2/SOT-1116/SOT-1203
+KEYW dual buffer three state
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC2G126.pdf
+UNIT BUF
+2 ~ I L
+1 ~ I T
+6 ~ O R
+UNIT BUF
+5 ~ I L
+7 ~ I T
+3 ~ O R
+UNIT PWR SEP
+4 GND PI BC
+8 VCC PI TC
+END
+
+##### ====================================================================      BUG
+#
+COMP 74LVC2G240 U
+%fill back
+FPLIST
+SOT?505?2*
+SOT?765?1*
+SOT?833?1*
+SOT?1089*
+SOT?996?2*
+SOT?1116*
+SOT?1203*
+DESC Dual inverter, active-low enable, three-state, SOT-505-2/SOT-765-1/SOT-833-1/SOT-1089/SOT-996-2/SOT-1116/SOT-1203
+KEYW dual NOT gate three state
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC2G240.pdf
+UNIT NOT
+2 ~ I L
+1 ~ ~I B
+6 ~ O R
+UNIT NOT
+5 ~ I L
+7 ~ ~I B
+3 ~ O R
+UNIT PWR SEP
+4 GND PI BC
+8 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC2G241 U
+%fill back
+FPLIST
+SOT?505?2*
+SOT?765?1*
+SOT?833?1*
+SOT?1089*
+SOT?996?2*
+SOT?1116*
+SOT?1203*
+DESC Dual buffer, active-low and active-high enables, three-state, SOT-505-2/SOT-765-1/SOT-833-1/SOT-1089/SOT-996-2/SOT-1116/SOT-1203
+KEYW dual buffer three state
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC2G241.pdf
+UNIT BUF
+2 ~ I L
+1 ~ ~I T
+6 ~ O R
+UNIT BUF
+5 ~ I L
+7 ~ I T
+3 ~ O R
+UNIT PWR SEP
+4 GND PI BC
+8 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74AUP2G0604 U
+%fill back
+FPLIST
+SOT?363*
+SOT?886*
+SOT?891*
+SOT?1115*
+SOT?1202*
+DESC Dual combo gates - one inverter, one inverter with open-drain, SOT-363/SOT-886/SOT-891/SOT-1115/SOT-1202
+KEYW dual inverter open drain combo
+DOC https://assets.nexperia.com/documents/data-sheet/74AUP2G0604.pdf
+UNIT NOT
+1 ~ I L
+6 ~ O R
+UNIT NOT
+3 ~ I L
+4 ~ C R
+UNIT PWR SEP
+2 GND PI BC
+5 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74AUP2G3404 U
+%fill back
+FPLIST
+SOT?363*
+SOT?886*
+SOT?891*
+SOT?1115*
+SOT?1202*
+DESC Dual combo gates - one buffer, one inverter, SOT-363/SOT-886/SOT-891/SOT-1115/SOT-1202
+KEYW dual buffer inverter combo
+DOC https://assets.nexperia.com/documents/data-sheet/74AUP2G3404.pdf
+UNIT BUF
+1 ~ I L
+6 ~ O R
+UNIT NOT
+3 ~ I L
+4 ~ O R
+UNIT PWR SEP
+2 GND PI BC
+5 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74AUP2G3407 U
+%fill back
+FPLIST
+SOT?363*
+SOT?886*
+SOT?891*
+SOT?1115*
+SOT?1202*
+DESC Dual combo gates - one buffer, one buffer with open drain, SOT-363/SOT-886/SOT-891/SOT-1115/SOT-1202
+KEYW dual buffer open drain combo
+DOC https://assets.nexperia.com/documents/data-sheet/74AUP2G3407.pdf
+UNIT BUF
+1 ~ I L
+6 ~ O R
+UNIT BUF
+3 ~ I L
+4 ~ C R
+UNIT PWR SEP
+2 GND PI BC
+5 VCC PI TC
+END
+
+
+########################################
+# 74x3G
+########################################
+##### ====================================================================  OK
+#
+COMP 74LVC3G04 U
+%fill back
+FPLIST
+SOT?505?2*
+SOT?765?1*
+SOT?833?1*
+SOT?1089*
+SOT?996?2*
+SOT?1116*
+SOT?1203*
+DESC Triple inverter gate, SOT-505-2/SOT-765-1/SOT-833-1/SOT-1089/SOT-996-2/SOT-1116/SOT-1203
+KEYW triple NOT gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC3G04.pdf
+UNIT NOT
+1 ~ I L
+7 ~ O R
+UNIT NOT
+3 ~ I L
+5 ~ O R
+UNIT NOT
+6 ~ I L
+2 ~ O R
+UNIT PWR SEP
+4 GND PI BC
+8 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC3G06 U
+%fill back
+FPLIST
+SOT?505?2*
+SOT?765?1*
+SOT?833?1*
+SOT?1089*
+SOT?996?2*
+SOT?1116*
+SOT?1203*
+DESC Triple inverter gate, open-drain output, SOT-505-2/SOT-765-1/SOT-833-1/SOT-1089/SOT-996-2/SOT-1116/SOT-1203
+KEYW triple NOT gate open drain
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC3G06.pdf
+UNIT NOT
+1 ~ I L
+7 ~ C R
+UNIT NOT
+3 ~ I L
+5 ~ C R
+UNIT NOT
+6 ~ I L
+2 ~ C R
+UNIT PWR SEP
+4 GND PI BC
+8 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC3G07 U
+%fill back
+FPLIST
+SOT?505?2*
+SOT?765?1*
+SOT?833?1*
+SOT?1089*
+SOT?996?2*
+SOT?1116*
+SOT?1203*
+DESC Triple buffer gate, open-drain output, SOT-505-2/SOT-765-1/SOT-833-1/SOT-1089/SOT-996-2/SOT-1116/SOT-1203
+KEYW triple buffer gate open drain
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC3G07.pdf
+UNIT BUF
+1 ~ I L
+7 ~ C R
+UNIT BUF
+3 ~ I L
+5 ~ C R
+UNIT BUF
+6 ~ I L
+2 ~ C R
+UNIT PWR SEP
+4 GND PI BC
+8 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC3G14 U
+%fill back
+FPLIST
+SOT?505?2*
+SOT?765?1*
+SOT?833?1*
+SOT?1089*
+SOT?996?2*
+SOT?1116*
+SOT?1203*
+DESC Triple inverter gate, SOT-505-2/SOT-765-1/SOT-833-1/SOT-1089/SOT-996-2/SOT-1116/SOT-1203
+KEYW triple NOT gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC3G14.pdf
+UNIT NOT
+1 ~ I L
+7 ~ O R
+UNIT NOT
+3 ~ I L
+5 ~ O R
+UNIT NOT
+6 ~ I L
+2 ~ O R
+UNIT PWR SEP
+4 GND PI BC
+8 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC3G17 U
+%fill back
+FPLIST
+SOT?505?2*
+SOT?765?1*
+SOT?833?1*
+SOT?1089*
+SOT?996?2*
+SOT?1116*
+SOT?1203*
+DESC Triple buffer gate, SOT-505-2/SOT-765-1/SOT-833-1/SOT-1089/SOT-996-2/SOT-1116/SOT-1203
+KEYW triple buffer gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC3G17.pdf
+UNIT BUF
+1 ~ I L
+7 ~ O R
+UNIT BUF
+3 ~ I L
+5 ~ O R
+UNIT BUF
+6 ~ I L
+2 ~ O R
+UNIT PWR SEP
+4 GND PI BC
+8 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74LVC3G34 U
+%fill back
+FPLIST
+SOT?505?2*
+SOT?765?1*
+SOT?833?1*
+SOT?1089*
+SOT?996?2*
+SOT?1116*
+SOT?1203*
+DESC Triple buffer gate, SOT-505-2/SOT-765-1/SOT-833-1/SOT-1089/SOT-996-2/SOT-1116/SOT-1203
+KEYW triple buffer gate
+DOC https://assets.nexperia.com/documents/data-sheet/74LVC3G34.pdf
+UNIT BUF
+1 ~ I L
+7 ~ O R
+UNIT BUF
+3 ~ I L
+5 ~ O R
+UNIT BUF
+6 ~ I L
+2 ~ O R
+UNIT PWR SEP
+4 GND PI BC
+8 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74AUP3G0434 U
+%fill back
+FPLIST
+SOT?765?1*
+SOT?833?1*
+SOT?1089*
+SOT?996?2*
+SOT?1116*
+SOT?1203*
+DESC Triple combo gates - two inverter, one buffer, SOT-765-1/SOT-833-1/SOT-1089/SOT-996-2/SOT-1116/SOT-1203
+KEYW triple inverter buffer combo
+DOC https://assets.nexperia.com/documents/data-sheet/74AUP3G0434.pdf
+UNIT NOT
+1 ~ I L
+7 ~ O R
+UNIT BUF
+3 ~ I L
+5 ~ O R
+UNIT NOT
+6 ~ I L
+2 ~ O R
+UNIT PWR SEP
+4 GND PI BC
+8 VCC PI TC
+END
+
+##### ====================================================================  OK
+#
+COMP 74AUP3G3404 U
+%fill back
+FPLIST
+SOT?765?1*
+SOT?833?1*
+SOT?1089*
+SOT?996?2*
+SOT?1116*
+SOT?1203*
+DESC Triple combo gates - two buffer, one inverter, SOT-765-1/SOT-833-1/SOT-1089/SOT-996-2/SOT-1116/SOT-1203
+KEYW triple buffer inverter combo
+DOC https://assets.nexperia.com/documents/data-sheet/74AUP3G3404.pdf
+UNIT BUF
+1 ~ I L
+7 ~ O R
+UNIT NOT
+3 ~ I L
+5 ~ O R
+UNIT BUF
+6 ~ I L
+2 ~ O R
+UNIT PWR SEP
+4 GND PI BC
+8 VCC PI TC
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
