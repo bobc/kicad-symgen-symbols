@@ -12,8 +12,8 @@ FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-1226_0.8x0.8x0.35_P0.48"
 SOT-353-1           ?       *
 SOT-363             ?               https://assets.nexperia.com/documents/outline-drawing/SOT363.pdf        SOT-363_1.25x2.0x0.95mm_P1.3mm      
 SOT-457                             https://assets.nexperia.com/documents/outline-drawing/SOT457.pdf
-SOT-505-2                   *       https://assets.nexperia.com/documents/outline-drawing/SOT505-2.pdf
-SOT-753                     *       https://www.nxp.com/docs/en/package-information/SOT753.pdf
+SOT-505-2                   *       https://assets.nexperia.com/documents/outline-drawing/SOT505-2.pdf      SOT-505-2_3x3mm_P0.65mm
+SOT-753                     *       https://www.nxp.com/docs/en/package-information/SOT753.pdf              SOT-753_1.5x2.9mm_P0.95mm
 SOT-765-1                   *       https://assets.nexperia.com/documents/outline-drawing/SOT765-1.pdf
 SOT-833-1                   *       https://www.nxp.com/docs/en/package-information/SOT833-1.pdf
 SOT-886             ?               https://assets.nexperia.com/documents/outline-drawing/SOT886.pdf
