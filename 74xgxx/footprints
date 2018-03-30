@@ -9,21 +9,23 @@ FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-1116_1.0x1.2x0.35_P0.3"
 FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-1203_1.0x1.35x0.35_P0.35"
 FIELD $FOOTPRINT "Package_TO_SOT_SMD:SOT-1226_0.8x0.8x0.35_P0.48"
 
-SOT-353-1           ?       *
-SOT-363             ?               https://assets.nexperia.com/documents/outline-drawing/SOT363.pdf        SOT-363_1.25x2.0x0.95mm_P1.3mm      
-SOT-457                             https://assets.nexperia.com/documents/outline-drawing/SOT457.pdf
-SOT-505-2                   *       https://assets.nexperia.com/documents/outline-drawing/SOT505-2.pdf      SOT-505-2_3x3mm_P0.65mm
-SOT-753                     *       https://www.nxp.com/docs/en/package-information/SOT753.pdf              SOT-753_1.5x2.9mm_P0.95mm
-SOT-765-1                   *       https://assets.nexperia.com/documents/outline-drawing/SOT765-1.pdf
-SOT-833-1                   *       https://www.nxp.com/docs/en/package-information/SOT833-1.pdf
-SOT-886             ?               https://assets.nexperia.com/documents/outline-drawing/SOT886.pdf
-SOT-891                             https://assets.nexperia.com/documents/outline-drawing/SOT891.pdf
-SOT-996-2                   *       https://assets.nexperia.com/documents/outline-drawing/SOT996-2.pdf
-SOT-1089                    *       https://assets.nexperia.com/documents/outline-drawing/SOT1089.pdf
-SOT-1115                            https://assets.nexperia.com/documents/outline-drawing/SOT1115.pdf
-SOT-1116                    *
-SOT-1202                            https://assets.nexperia.com/documents/outline-drawing/SOT1202.pdf
-SOT-1203                    *
-SOT-1226                    *       https://assets.nexperia.com/documents/outline-drawing/SOT1226.pdf
-SOT-1233                            https://assets.nexperia.com/documents/outline-drawing/SOT1233.pdf
-SOT-1255                            https://assets.nexperia.com/documents/outline-drawing/SOT1255.pdf       SOT-1255_1.0x0.8x0.35mm.kicad_mod   
+//-----------------------------------------------------------------------------------------------------------------------------------------------------
+SOT-353-1   *   https://www.nxp.com/docs/en/package-information/SOT353-1.pdf            TSSOP-5                     ??
+SOT-363         https://assets.nexperia.com/documents/outline-drawing/SOT363.pdf        TSSOP-6_1.25x2mm_P0.65mm    SOT-363_1.25x2.0x0.95mm_P1.3mm      
+SOT-457         https://assets.nexperia.com/documents/outline-drawing/SOT457.pdf        TSOP-6_1.5x2.9mm_P0.95mm    
+SOT-505-2   *   https://assets.nexperia.com/documents/outline-drawing/SOT505-2.pdf      TSSOP-8_3x3mm_P0.65mm       SOT-505-2_3x3mm_P0.65mm
+SOT-753     *   https://www.nxp.com/docs/en/package-information/SOT753.pdf              TSOP-5_1.5x2.9mm_P0.95mm    SOT-753_1.5x2.9mm_P0.95mm
+SOT-765-1   *   https://assets.nexperia.com/documents/outline-drawing/SOT765-1.pdf      VSSOP-8_2.3x2.0mm_P0.5mm    SOT-765-1_2.3x2.0mm_P0.5mm
+SOT-833-1   *   https://www.nxp.com/docs/en/package-information/SOT833-1.pdf            XSON-8_1x1.95mm_P0.5mm  
+SOT-886         https://assets.nexperia.com/documents/outline-drawing/SOT886.pdf        XSON-6_1x1.45mm_P0.5mm
+SOT-891         https://assets.nexperia.com/documents/outline-drawing/SOT891.pdf        XSON-6_1x1x0.5mm_P0.35mm
+SOT-996-2   *   https://assets.nexperia.com/documents/outline-drawing/SOT996-2.pdf      XSON-8_3x2mm_P0.5mm
+SOT-1089    *   https://assets.nexperia.com/documents/outline-drawing/SOT1089.pdf       XSON-8_1x1.35x0.5mm_P0.35mm    
+SOT-1115        https://assets.nexperia.com/documents/outline-drawing/SOT1115.pdf       XSON-6_1x0.9mm_P0.3mm
+SOT-1116    *   https://www.nxp.com/docs/en/package-information/SOT1116.pdf             XSON-8                      ??
+SOT-1202        https://assets.nexperia.com/documents/outline-drawing/SOT1202.pdf       XSON-6_1x1x0.35mm_P0.35mm
+SOT-1203    *   https://www.nxp.com/docs/en/package-information/SOT1203.pdf             XSON-8_1x1.35x0.35mm_P0.35mm
+SOT-1226    *   https://assets.nexperia.com/documents/outline-drawing/SOT1226.pdf       X2SON-5_0.8x0.8mm           
+SOT-1233        https://assets.nexperia.com/documents/outline-drawing/SOT1233.pdf       X2SON-8_0.8x1.35mm_P0.5mm
+SOT-1255        https://assets.nexperia.com/documents/outline-drawing/SOT1255.pdf       X2SON-6_1.0x0.8mm           SOT-1255_1.0x0.8x0.35mm.kicad_mod   
+//-----------------------------------------------------------------------------------------------------------------------------------------------------
