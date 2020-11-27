@@ -2,7 +2,7 @@
 #
 # Global Defaults
 #
-%lib Logic_74xgxx_DEV
+%lib 74xGxx
 %pinlen 100
 %width 600
 %fill back
